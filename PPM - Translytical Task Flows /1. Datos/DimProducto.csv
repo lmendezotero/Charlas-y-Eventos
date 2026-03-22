@@ -1,0 +1,13 @@
+﻿ProductoID,ProductoNombre,SubcategoriaID,PrecioUnitario,UnidadMedida
+1,Tabla de pino 2x4,1,12.5,Metro lineal
+2,Listón de roble 3x3,1,18.0,Metro lineal
+3,Viga de abeto 10x10,2,45.0,Metro lineal
+4,Poste tratado 8x8,2,52.0,Metro lineal
+5,Contrachapado marino 18mm,3,32.0,Hoja
+6,Contrachapado interior 12mm,3,22.5,Hoja
+7,Panel MDF 15mm,4,19.0,Hoja
+8,Panel MDF ignífugo 18mm,4,27.0,Hoja
+9,Barniz transparente exterior,5,14.5,Litro
+10,Sellador para madera interior,5,11.0,Litro
+11,Serrucho manual,6,25.0,Unidad
+12,Tornillos para madera (100u),6,8.5,Caja

@@ -1,0 +1,51 @@
+﻿ClienteID,ClienteNombre,TipoCliente,ProvinciaID
+1,Maderas Madrid S.A.,Distribuidor,1
+2,Carpintería Hermanos López,Carpintería,1
+3,Construcciones Castellana,Constructora,1
+4,Tableros del Centro,Distribuidor,1
+5,Carpintería Martínez,Carpintería,2
+6,Grupo Constructor Catalunya,Constructora,2
+7,Distribuciones Forestales BCN,Distribuidor,2
+8,Taller de Madera Riera,Carpintería,2
+9,Maderas Levante S.L.,Distribuidor,3
+10,Construcciones Mediterráneo,Constructora,3
+11,Carpintería Fallas,Carpintería,3
+12,Decoraciones Valencia,Carpintería,3
+13,Maderas del Sur,Distribuidor,4
+14,Construcciones Guadalquivir,Constructora,4
+15,Carpintería Romero,Carpintería,4
+16,Tableros y Contrachapados Sevilla,Distribuidor,4
+17,Maderas Aragón S.A.,Distribuidor,5
+18,Carpintería Ebro,Carpintería,5
+19,Construcciones Pilarica,Constructora,5
+20,Maderas y Vigas de Zaragoza,Distribuidor,5
+21,Carpintería La Malagueta,Carpintería,6
+22,Construcciones Costa del Sol,Constructora,6
+23,Maderas Costa S.L.,Distribuidor,6
+24,Carpintería Serrano,Carpintería,6
+25,Maderas del Norte Bilbao,Distribuidor,7
+26,Construcciones Nervión,Constructora,7
+27,Carpintería Ibaizabal,Carpintería,7
+28,Tableros Vascos,Distribuidor,7
+29,Carpintería Donosti,Carpintería,8
+30,Construcciones Gipuzkoa,Constructora,8
+31,Maderas Atlántico,Distribuidor,9
+32,Carpintería Rías Altas,Carpintería,9
+33,Construcciones Galicia,Constructora,9
+34,Tableros del Mar,Distribuidor,10
+35,Carpintería Vigo,Carpintería,10
+36,Maderas del Puerto,Distribuidor,11
+37,Carpintería Mediterránea,Carpintería,11
+38,Construcciones Alicante,Constructora,11
+39,Distribuidora Forestal Murcia,Distribuidor,12
+40,Carpintería Segura,Carpintería,12
+41,Construcciones del Segura,Constructora,12
+42,Maderas Toledanas,Distribuidor,13
+43,Carpintería Imperial,Carpintería,13
+44,Construcciones La Mancha,Constructora,13
+45,Maderas de Castilla,Distribuidor,14
+46,Carpintería Ribera,Carpintería,14
+47,Construcciones Pisuerga,Constructora,14
+48,Tableros Charros,Distribuidor,15
+49,Carpintería Salamanca,Carpintería,15
+50,Construcciones Universitarias,Constructora,15

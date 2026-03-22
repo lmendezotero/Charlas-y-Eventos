@@ -1,0 +1,33 @@
+﻿CuentaContable;DescripcionCuenta;PartidaNivel1;PartidaNivel2
+700000;Ventas de mercaderías;Ingresos Explotación;Ingresos de Explotación
+701000;Ventas de productos terminados;Ingresos Explotación;Ingresos de Explotación
+702000;Ventas de subproductos;Ingresos Explotación;Ingresos de Explotación
+705000;Prestaciones de servicios;Ingresos Explotación;Ingresos de Explotación
+706000;Ingresos accesorios;Ingresos Explotación;Ingresos de Explotación
+740000;Subvenciones de explotación;Ingresos Explotación;Subvenciones de Explotación
+746000;Subvenciones para gastos de personal;Ingresos Explotación;Subvenciones de Explotación
+792000;Reversión de provisiones de operaciones comerciales;Ingresos Explotación;Reversión de Provisiones
+794000;Reversión de provisiones para riesgos y gastos;Ingresos Explotación;Reversión de Provisiones
+770000;Ingresos Extraordinarios;Ingresos Extraordinarios;Ingresos Extraordinarios
+600000;Compras de mercaderías;Gastos Explotación;Compras
+601000;Compras de materias primas;Gastos Explotación;Compras
+602000;Otros aprovisionamientos;Gastos Explotación;Compras
+606000;Descuentos sobre compras;Gastos Explotación;Compras
+621000;Arrendamientos y cánones;Gastos Explotación;Servicios Exteriores
+622000;Reparaciones y conservación;Gastos Explotación;Servicios Exteriores
+623000;Servicios profesionales independientes;Gastos Explotación;Servicios Exteriores
+624000;Transportes;Gastos Explotación;Servicios Exteriores
+625000;Primas de seguros;Gastos Explotación;Servicios Exteriores
+626000;Servicios bancarios;Gastos Explotación;Servicios Exteriores
+627000;Publicidad y relaciones públicas;Gastos Explotación;Servicios Exteriores
+628000;Suministros;Gastos Explotación;Servicios Exteriores
+640000;Sueldos y salarios;Gastos Explotación;Personal
+642000;Seguridad Social a cargo de la empresa;Gastos Explotación;Personal
+665000;Pérdidas por morosidad;Gastos Explotación;Morosidad
+678000;Gastos extraordinarios;Gastos Extraordinarios;Gastos Extraordinarios
+746500;Subvenciones de capital transferidas a resultados;Ingresos Subvenciones de Capital;Ingresos Subvenciones de Capital
+681000;Amortización del inmovilizado material;Amortización del Inmovilizado;Amortización del Inmovilizado
+760000;Ingresos financieros;Ingresos Financieros;Ingresos Financieros
+660000;Gastos financieros;Gastos Financieros;Gastos Financieros
+630000;Impuesto sobre beneficios;Impuesto de Sociedades;Impuesto de Sociedades
+704000;Descuentos sobre ventas;Ingresos Explotación;Ingresos de Explotación
