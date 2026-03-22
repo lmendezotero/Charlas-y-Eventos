@@ -1,7 +1,7 @@
 # Power Platform Madrid - Data Entry en Microsoft Fabric
 Repositorio para guardar el contenido mostrado durante la charla de Data Entry en Microsoft Fabric para el evento online de Power Platform Madrid, celebrado el 26 de marzo de 2026.
 
-![alt text](https://github.com/lmendezotero/Charlas-y-Eventos/blob/main/PPM%20-%20Translytical%20Task%20Flows%20/Imagenes/Fondo%20PPM.png)
+![alt text](https://github.com/lmendezotero/Charlas-y-Eventos/blob/main/PPM%20-%20Translytical%20Task%20Flows%20/Imagenes/Fondo%20PPM%20Repo.png)
 
 ## Descripción del proyecto 🔊
 El objetivo principal del proyecto es poner a prueba las capacidades del artefacto de Fabric Data Agent, un nuevo componente en fase de previuw lanzado por Microsoft.
