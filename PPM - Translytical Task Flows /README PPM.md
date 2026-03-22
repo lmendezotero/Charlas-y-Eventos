@@ -1,7 +1,7 @@
-# Women In Fabric-Fabric Data Agents
-Repositorio para guardar el contenido mostrado durante la charla de Agentes de IA en Fabric para el evento de Women in Fabric, celebrado el 20 de septiembre en Barcelona.
+# Power Platform Madrid - Data Entry en Microsoft Fabric
+Repositorio para guardar el contenido mostrado durante la charla de Data Entry en Microsoft Fabric para el evento online de Power Platform Madrid, celebrado el 26 de marzo de 2026.
 
-![alt text](https://github.com/lmendezotero/WomenInFabric-FabricDataAgents/blob/main/Imagenes%20y%20Logos/Logo%20Women%20in%20Fabric.jpg)
+![alt text](https://github.com/lmendezotero/Charlas-y-Eventos/blob/main/PPM%20-%20Translytical%20Task%20Flows%20/Imagenes/Fondo%20PPM.png)
 
 ## Descripción del proyecto 🔊
 El objetivo principal del proyecto es poner a prueba las capacidades del artefacto de Fabric Data Agent, un nuevo componente en fase de previuw lanzado por Microsoft.
@@ -18,28 +18,25 @@ Por último, se ha implementado un agente de datos, llamado "Financial Analyst A
 El material de este repositorio está dividido en 4 carpetas principales:
 
 ### Datos 📂
-Nos encontramos una serie de ficheros csv que almacen la información financiera de la empresa Maderas del Noroeste. Estos ficheros se cargarán al Lakehouse y se usarán para componer el modelo de datos del informe de Power BI. 
+Nos encontramos una serie de ficheros csv que almacen la información financiera de la empresa ficticia Atlantic Woods. Estos ficheros se cargarán a una base de datos SQL de Fabric y se usarán para componer el modelo de datos del informe de Power BI. 
 
-### Notebooks 📂
-Notebooks de Pyspark desarrollados en Fabric para realizar las siguientes acciones:
-- DimTablesToDelta.ipynb -> Notebook desarrollado para transformar los datos de dimensiones de los ficheros csv a tablas delta y almacenarlos en el Lakehouse.
-- FactTablesToDelta.ipynb -> Notebook desarrollado para transformar los datos de hechos de los ficheros csv a tablas delta y almacenarlos en el Lakehouse.
-- FDA Evaluation.ipynb -> Notebook desarrollado para evaluar el grado de acierto en las respuestas obtenidas por el agente a través del SDK.
-- FDA Interaction with programming.ipynb -> Notebook desarrollado para probar la iteracción del SDK con el agente.
+### User Data Functions 📂
+Notebooks de Pyspark con el detalle del código desarrollado para dar de alta las User Data Functions (y lograr así ejecutar operaciones de CRUD para Translytical Task Flows en Fabric):
+- DataFunction_BudgetData.ipynb -> Notebook desarrollado para la creación, actualización, consulta y eliminación de información presupuestaria, encapsulando la lógica de negocio mediante User Data Functions.
+- DataFunction_Dimens.ipynb -> Notebook desarrollado para la gestión de tablas de dimensiones, implementando User Data Functions que permiten su integración en los Translytical Task Flows.
 
-### Power BI 📂
+### Power BI Report 📂
 Se almacena en fichero pbix con el informe desarrollado en Power BI.
 
-### Fabric Data Agent 📂
-Se almacena información relevante para el agente de datos (prompting, ejemplos de queries sql, etc).
+### ETL en Fabric 📂
 
 ## Agradecimientos 🙏🏻
 
-Agradecerle a la comunidad de Power BI & Fabric de Barcelona la oportunidad de haber podido participar como ponente en el evento de **Women in Fabric** y aportar mi pequeño grano de arena a la comunidad. 
+Agradecerle a la comunidad de Power Platform Madrid la oportunidad de haber podido participar como ponente en la charla online de **Data Entry en Microsoft Fabric** y aportar mi pequeño grano de arena a la comunidad. 
 
 Dejo enlace de MeetUp de la comunidad para que estéis informandos de novedades y futuros eventos:
 
-[Power BI & Fabric Barcelona](https://www.meetup.com/es-ES/power-bi-barcelona/).
+[Power Platform Madrid](https://www.meetup.com/es-es/power-platform-madrid/).
 
 ## Autores ✒️
 * **Lorena Méndez Otero** - [lmendezotero](https://github.com/lmendezotero) 
