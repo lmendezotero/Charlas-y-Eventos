@@ -10,10 +10,10 @@ Este enfoque busca replicar funcionalidades típicas de aplicaciones externas de
 
 Para alcanzar este objetivo, se han llevado a cabo las siguientes acciones:
 
-* Diseño e implementación de la capa de almacenamiento. Se ha creado una base de datos SQL en Microsoft Fabric, requisito fundamental para habilitar el uso de Translytical Task Flows.
-* Construcción del modelo de datos. Mediante canalizaciones y Dataflows, se han ingestado y transformado los datos para generar tablas de hechos y dimensiones. Adicionalmente, se han desarrollado procesos ETL en Python para enriquecer y depurar la información, obteniendo un modelo de datos optimizado para análisis y operación.
-* Desarrollo de User Data Functions (UDFs). Se han implementado funciones específicas que permiten exponer capacidades transaccionales sobre el modelo de datos (concretamente sobre tablas de dimensiones y la tabla de hechos de presupuesto del modelo de datos).
-* Integración con Power BI para escenarios translytical Finalmente, se ha desarrollado un informe en Power BI conectado al modelo analítico, desde el cual es posible interactuar con los datos y ejecutar operaciones de mantenimiento (creación, actualización y eliminación de registros) en tiempo casi real, validando así el uso de Translytical Task Flows en un escenario práctico.
+* **Diseño e implementación de la capa de almacenamiento**. Se ha creado una base de datos SQL en Microsoft Fabric, requisito fundamental para habilitar el uso de Translytical Task Flows.
+* **Construcción del modelo de datos**. Mediante canalizaciones y Dataflows, se han ingestado y transformado los datos para generar tablas de hechos y dimensiones. Adicionalmente, se han desarrollado procesos ETL en Python para enriquecer y depurar la información, obteniendo un modelo de datos optimizado para análisis y operación.
+* **Desarrollo de User Data Functions (UDFs)**. Se han implementado funciones específicas que permiten exponer capacidades transaccionales sobre el modelo de datos (concretamente sobre tablas de dimensiones y la tabla de hechos de presupuesto del modelo de datos).
+* **Integración con Power BI para escenarios translytical**. Finalmente, se ha desarrollado un informe en Power BI conectado al modelo analítico, desde el cual es posible interactuar con los datos y ejecutar operaciones de mantenimiento (creación, actualización y eliminación de registros) en tiempo casi real, validando así el uso de Translytical Task Flows en un escenario práctico.
 
 En conjunto, este proyecto demuestra cómo Microsoft Fabric puede evolucionar desde una plataforma puramente analítica hacia un entorno translytical, capaz de soportar tanto análisis como operaciones transaccionales sobre los datos.
 
@@ -47,7 +47,7 @@ Se almacena en fichero pbix con el informe desarrollado en Power BI.
 
 ## Agradecimientos 🙏🏻
 
-Agradecerle a la comunidad de Power Platform Madrid la oportunidad de haber podido participar como ponente en la charla online de **Data Entry en Microsoft Fabric** y aportar mi pequeño grano de arena a la comunidad. 
+Agradecerle a la comunidad de **Power Platform Madrid** la oportunidad de haber podido participar como ponente en la charla online de **Data Entry en Microsoft Fabric** y aportar mi pequeño grano de arena a la comunidad. 
 
 Dejo enlace de MeetUp de la comunidad para que estéis informandos de novedades y futuros eventos:
 
