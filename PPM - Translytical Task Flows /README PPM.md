@@ -4,15 +4,18 @@ Repositorio para guardar el contenido mostrado durante la charla de Data Entry e
 ![alt text](https://github.com/lmendezotero/Charlas-y-Eventos/blob/main/PPM%20-%20Translytical%20Task%20Flows%20/Imagenes/Fondo%20PPM%20Repo.png)
 
 ## Descripción del proyecto 🔊
-El objetivo principal del proyecto es poner a prueba las capacidades del artefacto de Fabric Data Agent, un nuevo componente en fase de previuw lanzado por Microsoft.
+El objetivo principal de este proyecto es explorar y demostrar las capacidades de los Translytical Task Flows en Microsoft Fabric, con el fin de habilitar operaciones de tipo CRUD (Create, Read, Update, Delete) directamente sobre los datos dentro del ecosistema Fabric, sin necesidad de recurrir a herramientas externas de entrada o mantenimiento de datos.
 
-Para ello, ha sido necesario realizar una serie de acciones para poder poner a prueba al agente de datos desarrollado en el presente proyecto. En primer lugar, se han analizado datos financieros de una empresa de distribución de productos de madera situada en el noroeste de España (Maderas del Noroeste). En el conjunto de datos se ha incluido información de clientes, región y localización, productos y jerarquía de categoría y subcategoría, cuentas contables. Además, se han incluido tablas de hechos de movimientos contables con inforamación de ingresos y gastos. 
+Este enfoque busca replicar funcionalidades típicas de aplicaciones externas de data entry, pero integradas de forma nativa en Fabric, permitiendo simplificar la arquitectura, reducir dependencias y mantener todo el ciclo de vida del dato dentro de una única plataforma.
 
-Los datos de Maderas del Noroeste están almacenados en un sistema de almacenamiento en Fabric de lago de datos (Lakehouse) y las transformaciones de los datos se han realizado con notebooks de Pyspark.
+Para alcanzar este objetivo, se han llevado a cabo las siguientes acciones:
 
-Posteriormente, se ha desarrollado un informe en Microsoft Power BI facilitar el análisis financiero de la compañía, permitiendo visualizar ingresos y gastos, explorar volumetría de ventas por cliente, producto y región, así como obtener una visión global de la situación financiera del negocio mediante indicadores clave.
+* Diseño e implementación de la capa de almacenamiento. Se ha creado una base de datos SQL en Microsoft Fabric, requisito fundamental para habilitar el uso de Translytical Task Flows.
+* Construcción del modelo de datos. Mediante canalizaciones y Dataflows, se han ingestado y transformado los datos para generar tablas de hechos y dimensiones. Adicionalmente, se han desarrollado procesos ETL en Python para enriquecer y depurar la información, obteniendo un modelo de datos optimizado para análisis y operación.
+* Desarrollo de User Data Functions (UDFs). Se han implementado funciones específicas que permiten exponer capacidades transaccionales sobre el modelo de datos (concretamente sobre tablas de dimensiones y la tabla de hechos de presupuesto del modelo de datos).
+* Integración con Power BI para escenarios translytical Finalmente, se ha desarrollado un informe en Power BI conectado al modelo analítico, desde el cual es posible interactuar con los datos y ejecutar operaciones de mantenimiento (creación, actualización y eliminación de registros) en tiempo casi real, validando así el uso de Translytical Task Flows en un escenario práctico.
 
-Por último, se ha implementado un agente de datos, llamado "Financial Analyst Assistant" con el objetivo de facilitar la consulta interactiva de la información financiera, responder preguntas en lenguaje natural y apoyar la toma de decisiones mediante el acceso ágil a los datos procesados en Fabric.
+En conjunto, este proyecto demuestra cómo Microsoft Fabric puede evolucionar desde una plataforma puramente analítica hacia un entorno translytical, capaz de soportar tanto análisis como operaciones transaccionales sobre los datos.
 
 ## Estructura de carpetas & Contenido 📋
 El material de este repositorio está dividido en 4 carpetas principales:
