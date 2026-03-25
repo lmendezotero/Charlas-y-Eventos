@@ -1,8 +1,6 @@
 # Power Platform Madrid - Data Entry en Microsoft Fabric
 Repositorio para guardar el contenido mostrado durante la charla de Data Entry en Microsoft Fabric para el evento online de Power Platform Madrid, celebrado el 26 de marzo de 2026.
 
-![alt text](https://github.com/lmendezotero/Charlas-y-Eventos/blob/main/PPM%20-%20Translytical%20Task%20Flows%20/Imagenes/Fondo%20PPM%20Repo.png)
-
 ## Descripción del proyecto 🔊
 El objetivo principal de este proyecto es explorar y demostrar las capacidades de los Translytical Task Flows en Microsoft Fabric, con el fin de habilitar operaciones de tipo CRUD (Create, Read, Update, Delete) directamente sobre los datos dentro del ecosistema Fabric, sin necesidad de recurrir a herramientas externas de entrada o mantenimiento de datos.
 
