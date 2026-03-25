@@ -22,7 +22,7 @@ Aquí encontrarás contenido práctico sobre tecnologías del ecosistema Microso
 
 
 ## 🤝 Contribución y feedback
-Si alguna charla te resulta útil, tienes dudas o quieres compartir feedback, estaré encantado de escucharte. Puedes escribirme por correo (lmendezotero59@gmail.com) o contactarme por [LinkedIn] (https://www.linkedin.com/in/lorenamendezotero/). 
+Si alguna charla te resulta útil, tienes dudas o quieres compartir feedback, estaré encantado de escucharte. Puedes escribirme por correo (lmendezotero59@gmail.com) o contactarme por [LinkedIn](https://www.linkedin.com/in/lorenamendezotero/). 
 
 Si este repositorio te resulta útil, ¡no dudes en darle una ⭐!
 
