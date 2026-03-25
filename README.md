@@ -1,3 +1,12 @@
 # Charlas y Eventos Tech
-Espacio para guardar el contenido mostrado en charlas y eventos didáctico a cerca de tecnología y metodologías de gestión de proyectos.
+¡Hola! Bienvenido/a a este repositorio donde recopilo el material de charlas, sesiones y eventos en los que participo.
 ![alt text](https://github.com/lmendezotero/Charlas-y-Eventos/blob/main/Imagenes/Fondo%20Repo%20Charlas%20y%20Eventos%20Tech.png)
+
+Aquí encontrarás contenido práctico sobre tecnologías del ecosistema Microsoft (especialmente Power Platform y Microsoft Fabric), así como enfoques, demos y aprendizajes compartidos en cada sesión.
+
+
+
+
+📂 [Translytical Task Flows en Microsoft Fabric](./PPM%20-%20Translytical%20Task%20Flows)  
+  📅 Marzo 2026 | Power Platform Madrid  
+  💡 Data entry en Fabric usando Translytical Task Flows
