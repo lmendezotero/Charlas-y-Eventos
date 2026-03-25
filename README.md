@@ -7,6 +7,6 @@ Aquí encontrarás contenido práctico sobre tecnologías del ecosistema Microso
 
 
 
-📂 [Translytical Task Flows en Microsoft Fabric](./PPM%20-%20Translytical%20Task%20Flows)  
+📂 [Translytical Task Flows en Microsoft Fabric](https://github.com/lmendezotero/Charlas-y-Eventos/tree/main/PPM%20-%20Translytical%20Task%20Flows%20)  
   📅 Marzo 2026 | Power Platform Madrid  
   💡 Data entry en Fabric usando Translytical Task Flows
