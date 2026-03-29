@@ -1,0 +1,33 @@
+﻿CuentaContable,DescripcionCuenta,Grupo,Tipo
+600000,Compras de mercaderías,6,Gasto
+601000,Compras de materias primas,6,Gasto
+602000,Otros aprovisionamientos,6,Gasto
+606000,Descuentos sobre compras,6,Gasto
+621000,Arrendamientos y cánones,6,Gasto
+622000,Reparaciones y conservación,6,Gasto
+623000,Servicios profesionales independientes,6,Gasto
+624000,Transportes,6,Gasto
+625000,Primas de seguros,6,Gasto
+626000,Servicios bancarios,6,Gasto
+627000,Publicidad y relaciones públicas,6,Gasto
+628000,Suministros,6,Gasto
+640000,Sueldos y salarios,6,Gasto
+642000,Seguridad Social a cargo de la empresa,6,Gasto
+660000,Gastos financieros,6,Gasto
+665000,Pérdidas por morosidad,6,Gasto
+678000,Gastos extraordinarios,6,Gasto
+681000,Amortización del inmovilizado material,6,Gasto
+630000,Impuesto sobre beneficios,6,Gasto
+700000,Ventas de mercaderías,7,Ingreso
+701000,Ventas de productos terminados,7,Ingreso
+702000,Ventas de subproductos,7,Ingreso
+704000,Descuentos sobre ventas,7,Ingreso
+705000,Prestaciones de servicios,7,Ingreso
+706000,Ingresos accesorios,7,Ingreso
+740000,Subvenciones de explotación,7,Ingreso
+746000,Subvenciones para gastos de personal,7,Ingreso
+792000,Reversión de provisiones de operaciones comerciales,7,Ingreso
+794000,Reversión de provisiones para riesgos y gastos,7,Ingreso
+770000,Ingresos extraordinarios,7,Ingreso
+746500,Subvenciones de capital transferidas a resultados,7,Ingreso
+760000,Ingresos financieros,7,Ingreso
