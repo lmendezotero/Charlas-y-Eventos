@@ -1,0 +1,25 @@
+
+# Consultas SQL de ejemplo
+
+## Consulta 1
+
+Muéstrame las subcategorías de producto que contengan "Vigas" en el nombre 
+SELECT * FROM [dbo].[DimSubcategoria] WHERE SubcategoriaNombre like  '%Vigas%';
+
+## Consulta 2
+Lista todos los productos relacionados con Panel MDF.
+
+SELECT ProductoID, ProductoNombre, SubcategoriaID
+FROM dbo.DimProducto
+WHERE ProductoNombre LIKE '%Panel MDF%'
+
+## Consulta 3
+Muestra el nombre de los clientes que han comprado el nombre de producto "Tabla de pino 2x4"
+
+SELECT DISTINCT c.ClienteNombre
+FROM HechosIngresosDiario s
+INNER JOIN DimProducto p
+    ON s.ProductoID = p.ProductoID
+INNER JOIN DimClientes c
+    ON s.ClienteID = c.ClienteID
+WHERE p.ProductoNombre = 'Tabla de pino 2x4';
