@@ -1,0 +1,5 @@
+{
+    "Muéstrame las subcategorías de producto que contengan \"Vigas\" en el nombre ": "SELECT * FROM [dbo].[DimSubcategoria] WHERE SubcategoriaNombre like  '%Vigas%';",
+    "Lista todos los productos relacionados con Panel MDF.": "SELECT ProductoID, ProductoNombre, SubcategoriaID\r\nFROM dbo.DimProducto\r\nWHERE ProductoNombre LIKE '%Panel MDF%'",
+    "Muestra el nombre de los clientes que han comprado el nombre de producto \"Tabla de pino 2x4\"": "SELECT DISTINCT c.ClienteNombre\r\nFROM HechosIngresosDiario s\r\nINNER JOIN DimProducto p\r\n    ON s.ProductoID = p.ProductoID\r\nINNER JOIN DimClientes c\r\n    ON s.ClienteID = c.ClienteID\r\nWHERE p.ProductoNombre = 'Tabla de pino 2x4';"
+}
