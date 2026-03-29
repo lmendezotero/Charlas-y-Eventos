@@ -1,7 +1,7 @@
 # Women In Fabric-Fabric Data Agents
 Repositorio para guardar el contenido mostrado durante la charla de Agentes de IA en Fabric para el evento de Women in Fabric, celebrado el 20 de septiembre en Barcelona.
 
-![alt text](https://github.com/lmendezotero/WomenInFabric-FabricDataAgents/blob/main/Imagenes%20y%20Logos/Logo%20Women%20in%20Fabric.jpg)
+![alt text](https://github.com/lmendezotero/Charlas-y-Eventos/blob/main/WomenInFabric-FabricDataAgents/Imagenes%20y%20Logos/Logo%20Women%20in%20Fabric.jpg)
 
 ## Descripción del proyecto 🔊
 El objetivo principal del proyecto es poner a prueba las capacidades del artefacto de Fabric Data Agent, un nuevo componente en fase de previuw lanzado por Microsoft.
