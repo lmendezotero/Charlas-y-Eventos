@@ -21,6 +21,18 @@ Aquí encontrarás contenido práctico sobre tecnologías del ecosistema Microso
 ✒️ Autores: Lorena Méndez Otero
 
 
+### Data Agents en Microsoft Fabric
+
+📂 [WIF - Fabric Data Agents](https://github.com/lmendezotero/Charlas-y-Eventos/tree/main/WomenInFabric-FabricDataAgents)
+
+📅 Septiembre 2025 | Women In Fabric
+
+🌐 Evento presencial de [Power BI & Fabric Barcelona](https://www.meetup.com/es-ES/power-bi-barcelona/)
+
+💡Tema de la charla: "Exploración de los agentes de datos en Microsoft Fabric”
+
+✒️ Autores: Lorena Méndez Otero
+
 
 ## 🤝 Contribución y feedback
 Si alguna charla te resulta útil, tienes dudas o quieres compartir feedback, estaré encantado de escucharte. Puedes escribirme por correo (lmendezotero59@gmail.com) o contactarme por [LinkedIn](https://www.linkedin.com/in/lorenamendezotero/). 
