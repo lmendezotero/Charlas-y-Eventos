@@ -11,13 +11,63 @@ Para ello, se ha desarrollado un caso práctico centrado en el análisis del pre
 * Extracción de operaciones de compraventa registradas (2): [Web Datos Abietos del Gobierno](https://datos.gob.es/es/catalogo/a16003011-estadistica-registral-inmobiliaria-2025?utm_source=chatgpt.com)
 
 Para alcanzar este objetivo, se han llevado a cabo las siguientes acciones:
+* Obtención y procesamiento de datos públicos relacionados con precios de compraventa, alquiler y operaciones inmobiliarias.
+* Desarrollo de notebooks en Python para realizar tareas de limpieza, transformación y enriquecimiento de datos.
+* Uso de MCP Cloud junto con GitHub Copilot para automatizar la creación y gestión de elementos de Microsoft Fabric, como Lakehouses, notebooks, Dataflows y pipelines, directamente desde Visual Studio Code mediante lenguaje natural.
+* Construcción de una arquitectura analítica en Fabric basada en Lakehouse, utilizando Dataflows y procesos ETL para estructurar la información.
+* Desarrollo de un informe en Power BI conectado al Lakehouse, incorporando métricas DAX y visualizaciones para analizar la evolución del mercado inmobiliario español.
 
-* **Diseño e implementación de la capa de almacenamiento**. Se ha creado una base de datos SQL en Microsoft Fabric, requisito fundamental para habilitar el uso de Translytical Task Flows.
-* **Construcción del modelo de datos**. Mediante canalizaciones y Dataflows, se han ingestado y transformado los datos para generar tablas de hechos y dimensiones. Adicionalmente, se han desarrollado procesos ETL en Python para enriquecer y depurar la información, obteniendo un modelo de datos optimizado para análisis y operación.
-* **Desarrollo de User Data Functions (UDFs)**. Se han implementado funciones específicas que permiten exponer capacidades transaccionales sobre el modelo de datos (concretamente sobre tablas de dimensiones y la tabla de hechos de presupuesto del modelo de datos).
-* **Integración con Power BI para escenarios translytical**. Finalmente, se ha desarrollado un informe en Power BI conectado al modelo analítico, desde el cual es posible interactuar con los datos y ejecutar operaciones de mantenimiento (creación, actualización y eliminación de registros) en tiempo casi real, validando así el uso de Translytical Task Flows en un escenario práctico.
+Este proyecto permite validar cómo MCP Cloud puede acelerar tareas de ingeniería de datos y reducir trabajo operativo dentro del ecosistema Fabric, especialmente en las fases iniciales de desarrollo y configuración de proyectos analíticos.
 
-En conjunto, este proyecto demuestra cómo Microsoft Fabric puede evolucionar desde una plataforma puramente analítica hacia un entorno translytical, capaz de soportar tanto análisis como operaciones transaccionales sobre los datos.
+## Requisitos necesarios para arrancar 🛠️
+* Cuenta de Microsoft Entra ID (profesional o educativa) con permisos de Fabric.
+* Acceso a Microsoft Fabric: una instancia de Fabricactiva con al menos un espacio de trabajo al que pueda acceder (F2 o superior).
+* Agente compatible con MCP: VS Code con GitHub Copilot o Claude Desktop.
+
+## Instalación de Software - Agregar MCP Core Cloud Fabric en VS Code 🖥️
+
+*VS Code (Recommendado)*
+Compatible tanto con las versiones Stable como Insiders de VS Code.
+* Instala la [extensión](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat&utm_source=chatgpt.com) de GitHub Copilot Chat.
+* Instala la [extensión](https://marketplace.visualstudio.com/items?itemName=fabric.vscode-fabric-mcp-server&utm_source=chatgpt.com) de Fabric MCP Server.
+
+*Agregar Servidor MCP Principal de Fabric Core*
+
+1. En VS Code, presione Ctrl+Mayús+P (o Cmd+Mayús+P en macOS) para abrir la paleta de comandos.
+
+2. Escriba MCP: Agregar servidor y seleccione HTTP en la lista.
+
+3. Escriba la dirección URL del servidor MCP de Fabric Core:
+
+  https://api.fabric.microsoft.com/v1/mcp/core
+
+4. Cuando se le solicite un nombre de servidor, escriba fabric.
+
+5. VS Code abre el explorador para la autenticación. Inicie sesión con su cuenta de Microsoft Entra ID. La ventana del explorador se cierra automáticamente después de la autenticación correcta.
+
+6. Revise la conexión del servidor MCP desde VS Code. En VS Code, abra gitHub Copilot Chat presionando Ctrl+Alt+I (o Cmd+Alt+I en macOS) y escriba el siguiente mensaje:
+
+```json
+List all my Fabric workspaces
+```
+
+A continuación, se debería ver una lista de nombres de áreas de trabajo a las que tiene acceso.
+
+## Configuración MCP Manual en VS Code
+También se puede configurar el servidor MCP Core de Fabric editando directamente el archivo de configuración de VS Code. Agregue lo siguiente a .vscode/mcp.json:
+
+```json
+{
+  "servers": {
+    "fabric": {
+      "type": "http",
+      "url": "https://api.fabric.microsoft.com/v1/mcp/core"
+    }
+  }
+}
+```
+
+
 
 ## Estructura de carpetas & Contenido 📋
 El material de este repositorio está dividido en 4 carpetas principales:
