@@ -73,29 +73,24 @@ También se puede configurar el servidor MCP Core de Fabric editando directament
 El material de este repositorio está dividido en 4 carpetas principales:
 
 ### 1. Datos 📂
-Nos encontramos una serie de ficheros csv que almacen la información financiera de la empresa ficticia Atlantic Woods. Estos ficheros se cargarán a una base de datos SQL de Fabric y se usarán para componer el modelo de datos del informe de Power BI. 
+Nos encontramos una serie de ficheros CSV procesados que serán utilizados como origen de datos del proyecto. Los datasets han sido limpiados y transformados mediante Python antes de su carga en Microsoft Fabric, donde serán utilizados para construir el modelo analítico y el informe de Power BI orientado al análisis del precio de la vivienda en España.
 
 ### 2. ETL en Fabric 📂
-Detalle de la ETL realizada para obtener la estructura final de tablas y modelo de datos en el Data Warehouse del proyecto (base de datos SQL de Fabric)
+Detalle de la ETL realizada para obtener la estructura final de tablas y modelo de datos en el Data Lakehouse del proyecto (base de datos SQL de Fabric). Para la preparación y explotación analítica de los datos, se han desarrollado distintos procesos ETL utilizando notebooks en Python dentro de Microsoft Fabric.
 
-Por una parte, se proporciona un archivo .zip con la exportación de una  **canalización de Data Factory** en Microsoft Fabric. Esta canalización orquesta la ejecución de tres Dataflows Gen2, diseñados para la ingesta de datos desde ficheros Excel alojados en SharePoint hacia la base de datos de destino.
-Los Dataflows incluidos son:
-* Dataflow de Dimensiones: Encargado de la carga de tablas de dimensiones a partir de ficheros Excel almacenados en SharePoint. 
-* Dataflow de Hechos (ingresos y gastos): Encargado de la carga de tablas de datos de hechos (real/actual) a partir de ficheros Excel almacenados en SharePoint, incluyendo información financiera correspondiente a los ejercicios 2023–2024 y 2025. 
-* Dataflow de Presupuesto (ingresos y gastos): Encargado de la carga de tablas de datos de hechos (presupuesto) a partir de ficheros Excel almacenados en SharePoint, incluyendo información financiera correspondiente a los ejercicios 2023–2024 y 2025. 
+Por una parte, se han implementado notebooks específicos para el tratamiento de datasets procedentes de distintas fuentes relacionadas con el mercado inmobiliario español:
+- Índice de Precios de Vivienda (IPV) del INE
+- Datos de precios de oferta de Idealista
+- Estadísticas del Registro de la Propiedad
 
-Por otra parte, se incluyen scripts en Python que complementan el proceso ETL mediante transformaciones más avanzadas:
-* Transform Fact Actual Data: Script orientado a la transformación de datos de hechos (datos reales), preparando la información para su integración en el modelo analítico final.
-* Transform Fact Budget Data: Script encargado de procesar y enriquecer la información presupuestaria, aplicando lógica de negocio específica para su análisis.
-Cálculo de datos de presupuesto
+Por otra parte, se han desarrollado notebooks para la generación de las tablas analíticas del proyecto, siguiendo un enfoque dimensional orientado a explotación en Power BI:
+- Tablas de dimensiones (fechas, geografía, tipologías, indicadores, etc.)
+- Tablas de hechos con métricas inmobiliarias y estadísticas del sector vivienda
 
-### 3. User Data Functions 📂
-Notebooks (lenguaje python) con el detalle del código desarrollado para dar de alta las User Data Functions (y lograr así ejecutar operaciones de CRUD para Translytical Task Flows en Fabric):
-- DataFunction_BudgetData.ipynb -> Notebook desarrollado para la creación, actualización, consulta y eliminación de información presupuestaria, encapsulando la lógica de negocio mediante User Data Functions.
-- DataFunction_Dimens.ipynb -> Notebook desarrollado para la gestión de tablas de dimensiones, implementando User Data Functions que permiten su integración en los Translytical Task Flows.
+Estas tablas son posteriormente cargadas en el Lakehouse de Microsoft Fabric y utilizadas como base del modelo semántico y del informe analítico desarrollado en Power BI.
 
 ### 4. Power BI Report 📂
-Se almacena en fichero pbix con el informe desarrollado en Power BI.
+Se almacena en fichero pbix con el informe desarrollado en Power BI para el análisis del precio del vivienda.
 
 ## Agradecimientos 🙏🏻
 
