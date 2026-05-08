@@ -9,7 +9,7 @@ Aquí encontrarás contenido práctico sobre tecnologías del ecosistema Microso
 
 ## 🚀 Material y contenido de charlas
 ### Análisis Precio de la vivienda con Fabric y MCP
-📂 [PPM - Analisis Precio Vivienda con Fabric y MCP](https://github.com/lmendezotero/Charlas-y-Eventos/tree/main/PPM%20-%20Translytical%20Task%20Flows%20)
+📂 [PPM - Analisis Precio Vivienda con Fabric y MCP](https://github.com/lmendezotero/Charlas-y-Eventos/tree/main/PPM%20-%20Analisis%20Vivienda%20con%20Fabric%20y%20MCP)
 
 📅 Mayo 2026 | Power Platform Madrid
 
