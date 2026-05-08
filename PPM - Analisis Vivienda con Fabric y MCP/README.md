@@ -39,7 +39,9 @@ Compatible tanto con las versiones Stable como Insiders de VS Code.
 
 3. Escriba la dirección URL del servidor MCP de Fabric Core:
 
-  https://api.fabric.microsoft.com/v1/mcp/core
+```json
+https://api.fabric.microsoft.com/v1/mcp/core
+```
 
 4. Cuando se le solicite un nombre de servidor, escriba fabric.
 
