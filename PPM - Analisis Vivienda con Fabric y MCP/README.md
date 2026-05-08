@@ -5,8 +5,10 @@ Repositorio para guardar el contenido mostrado durante la charla de "Del dato p�
 El objetivo principal de este proyecto es explorar y evaluar las capacidades del MCP Core Cloud de Microsoft Fabric como herramienta de automatización y asistencia al desarrollo dentro de proyectos de analítica de datos.
 
 Para ello, se ha desarrollado un caso práctico centrado en el análisis del precio de la vivienda en España, utilizando datos públicos procedentes de fuentes oficiales e inmobiliarias.
-* Evaluación del índice de previos de la vivienda (IPC). [Web INE](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736152838&idp=1254735976607&menu=ultiDatos&utm_source=chatgpt.com). 
-* DDDDDDD
+* Evaluación del índice de previos de la vivienda (IPC): [Web INE](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736152838&idp=1254735976607&menu=ultiDatos&utm_source=chatgpt.com)
+* Extracciónde preciosvivos de vivenda (compraventa y alquiler): [Web Idealista](https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/)
+* Extracción de operaciones de compraventa registradas (1): [Web Registro Propiedad](https://www.registradores.org/actualidad/portal-estadistico-registral/estadisticas-de-propiedad?utm_source=chatgpt.com)
+* Extracción de operaciones de compraventa registradas (2): [Web Datos Abietos del Gobierno](https://datos.gob.es/es/catalogo/a16003011-estadistica-registral-inmobiliaria-2025?utm_source=chatgpt.com)
 
 Para alcanzar este objetivo, se han llevado a cabo las siguientes acciones:
 
