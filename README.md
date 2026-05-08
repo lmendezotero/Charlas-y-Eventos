@@ -8,6 +8,17 @@ Aquí encontrarás contenido práctico sobre tecnologías del ecosistema Microso
 
 
 ## 🚀 Material y contenido de charlas
+### Análisis Precio de la vivienda con Fabric y MCP
+📂 [PPM - Analisis Precio Vivienda con Fabric y MCP](https://github.com/lmendezotero/Charlas-y-Eventos/tree/main/PPM%20-%20Translytical%20Task%20Flows%20)
+
+📅 Mayo 2026 | Power Platform Madrid
+
+🌐 Evento presencial de [Power Platform Madrid](https://www.meetup.com/es-es/power-platform-madrid/)
+
+💡Tema de la charla: "Del dato público a la IA: Analiznado el precio de la vivienda con Fabric y MCP”
+
+✒️ Autores: Lorena Méndez Otero
+
 ### Translytical Task Flows en Microsoft Fabric
 
 📂 [PPM - Translytical Task Flows](https://github.com/lmendezotero/Charlas-y-Eventos/tree/main/PPM%20-%20Translytical%20Task%20Flows%20)
