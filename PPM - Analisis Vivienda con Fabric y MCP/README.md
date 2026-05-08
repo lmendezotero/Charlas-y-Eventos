@@ -2,9 +2,11 @@
 Repositorio para guardar el contenido mostrado durante la charla de "Del dato público a la IA: Analiznado el precio de la vivienda con Fabric y MCP" para el evento presencial de Power Platform Madrid, celebrado el 9 de mayo de 2026 en las instalaciones de la Universidad Europea (Alcobendas, Madrid).
 
 ## Descripción del proyecto 🔊
-El objetivo principal de este proyecto es explorar y demostrar las capacidades de los Translytical Task Flows en Microsoft Fabric, con el fin de habilitar operaciones de tipo CRUD (Create, Read, Update, Delete) directamente sobre los datos dentro del ecosistema Fabric, sin necesidad de recurrir a herramientas externas de entrada o mantenimiento de datos.
+El objetivo principal de este proyecto es explorar y evaluar las capacidades del MCP Core Cloud de Microsoft Fabric como herramienta de automatización y asistencia al desarrollo dentro de proyectos de analítica de datos.
 
-Este enfoque busca replicar funcionalidades típicas de aplicaciones externas de data entry, pero integradas de forma nativa en Fabric, permitiendo simplificar la arquitectura, reducir dependencias y mantener todo el ciclo de vida del dato dentro de una única plataforma.
+Para ello, se ha desarrollado un caso práctico centrado en el análisis del precio de la vivienda en España, utilizando datos públicos procedentes de fuentes oficiales e inmobiliarias.
+* Evaluación del índice de previos de la vivienda (IPC). [Web INE](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736152838&idp=1254735976607&menu=ultiDatos&utm_source=chatgpt.com). 
+* DDDDDDD
 
 Para alcanzar este objetivo, se han llevado a cabo las siguientes acciones:
 
