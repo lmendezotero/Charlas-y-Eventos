@@ -35,7 +35,7 @@ Compatible tanto con las versiones Stable como Insiders de VS Code.
 
 1. En VS Code, presione Ctrl+Mayús+P (o Cmd+Mayús+P en macOS) para abrir la paleta de comandos.
 
-2. Escriba *MCP: Agregar servidor* y seleccione HTTP en la lista.
+2. Escriba **MCP: Agregar servidor** y seleccione HTTP en la lista.
 
 3. Escriba la dirección URL del servidor MCP de Fabric Core:
 
